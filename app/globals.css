@@ -19,3 +19,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+  --electric-violet-50: #f6f3ff;
+  --electric-violet-100: #eeeafd;
+  --electric-violet-200: #e0d7fd;
+  --electric-violet-300: #c9b7fb;
+  --electric-violet-400: #af8ef7;
+  --electric-violet-500: #9660f2;
+  --electric-violet-600: #873fe8;
+  --electric-violet-700: #823cd7;
+  --electric-violet-800: #6525b2;
+  --electric-violet-900: #542092;
+  --electric-violet-950: #341263;
+}
