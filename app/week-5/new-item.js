@@ -37,7 +37,7 @@ export default function NewItem() {
         <main className="flex justify-center w-full">
             <form className="bg-electric-violet-950 w-full max-w-sm h-1/2 rounded">
                 <div className="m-3">
-                    <input type="text" placeholder="Item Name" className="w-full p-2 rounded-md placeholder:text-gray-900" onChange={(event) => nameHandler(event)} required />
+                    <input type="text" placeholder="Item Name" className="text-gray-900 w-full p-2 rounded-md placeholder:text-gray-900" onChange={(event) => nameHandler(event)} required />
                 </div>
 
                 <div className="flex justify-between">
