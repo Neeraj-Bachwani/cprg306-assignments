@@ -5,6 +5,7 @@ import Item from './item.js';
 import NewItemAdder from './new-item.js';
 import ItemData from './items.json';
 import { useState } from "react";
+import MealIdeas from './meal-ideas.js';
 
 
 export default function Page() {
@@ -23,6 +24,7 @@ export default function Page() {
             </div>
             <h1 className='text-3xl font-bold p-3.5  text-electric-violet-950'>Shopping List</h1>
             <ItemList items = {items} />
+            
         </main>
-    );
+    )
   } 
